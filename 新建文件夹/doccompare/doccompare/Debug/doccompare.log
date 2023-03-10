@@ -1,0 +1,134 @@
+﻿  doccompare.cpp
+E:\files\cpp\计算机科技导论\新建文件夹\doccompare\doccompare\doccompare.cpp(23,23): error C2440: “=”: 无法从“char [260]”转换为“LPWSTR”
+E:\files\cpp\计算机科技导论\新建文件夹\doccompare\doccompare\doccompare.cpp(23,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\files\cpp\计算机科技导论\新建文件夹\doccompare\doccompare\doccompare.cpp(26,77): error C2440: “=”: 无法从“const char [42]”转换为“LPCWSTR”
+E:\files\cpp\计算机科技导论\新建文件夹\doccompare\doccompare\doccompare.cpp(26,21): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\files\cpp\计算机科技导论\新建文件夹\doccompare\doccompare\doccompare.cpp(37,21): error C2664: “int printf(const char *const ,...)”: 无法将参数 1 从“ATL::CStringT<wchar_t,ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>”转换为“const char *const ”
+E:\files\cpp\计算机科技导论\新建文件夹\doccompare\doccompare\doccompare.cpp(37,15): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  源.cpp
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(948,37): message : 参见“printf”的声明
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(104,15): error C2065: “CALLBACK”: 未声明的标识符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(104,25): error C2065: “LPFNPSPCALLBACKA”: 未声明的标识符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(104,41): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(104,42): error C2513: “int”: 在“=”前没有声明变量
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(104,42): error C2143: 语法错误: 缺少“;”(在“(”的前面)
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(104,48): error C2146: 语法错误: 缺少“)”(在标识符“hwnd”的前面)
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(104,52): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(104,48): error C2146: 语法错误: 缺少“;”(在标识符“hwnd”的前面)
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(104,93): error C2059: 语法错误:“)”
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(105,24): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(105,24): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(105,41): error C2059: 语法错误:“)”
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(105,48): error C2146: 语法错误: 缺少“)”(在标识符“hwnd”的前面)
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(140,46): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(140,24): error C2146: 语法错误: 缺少“;”(在标识符“PROPSHEETPAGE_RESOURCE”的前面)
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C3646: “dwSize”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C3646: “dwFlags”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C3646: “hInstance”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C3646: “pszTemplate”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C3646: “pResource”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C3646: “hIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C3646: “pszIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C3646: “pszTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C3646: “pfnDlgProc”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C3646: “lParam”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(198,5): error C3646: “pfnCallback”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C3646: “dwSize”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C3646: “dwFlags”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C3646: “hInstance”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C3646: “pszTemplate”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C3646: “pResource”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C3646: “hIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C3646: “pszIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C3646: “pszTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C3646: “pfnDlgProc”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C3646: “lParam”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(204,5): error C3646: “pfnCallback”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(206,36): error C3646: “pszHeaderTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(206,36): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(207,39): error C3646: “pszHeaderSubTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(207,39): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C3646: “dwSize”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C3646: “dwFlags”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C3646: “hInstance”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C3646: “pszTemplate”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C3646: “pResource”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C3646: “hIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C3646: “pszIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C3646: “pszTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C3646: “pfnDlgProc”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C3646: “lParam”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(213,5): error C3646: “pfnCallback”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(215,36): error C3646: “pszHeaderTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(215,36): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(216,39): error C3646: “pszHeaderSubTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(216,39): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(218,29): error C3646: “hActCtx”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(218,29): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C3646: “dwSize”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C3646: “dwFlags”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C3646: “hInstance”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C3646: “pszTemplate”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C3646: “pResource”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C3646: “hIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C3646: “pszIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C3646: “pszTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C3646: “pfnDlgProc”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C3646: “lParam”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(225,5): error C3646: “pfnCallback”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(227,36): error C3646: “pszHeaderTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(227,36): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(228,39): error C3646: “pszHeaderSubTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(228,39): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(230,29): error C3646: “hActCtx”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(230,29): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(234,30): error C3646: “hbmHeader”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(234,30): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(235,32): error C3646: “pszbmHeader”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(235,32): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C3646: “dwSize”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C3646: “dwFlags”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C3646: “hInstance”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C3646: “pszTemplate”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C3646: “pResource”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C3646: “hIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C3646: “pszIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C3646: “pszTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C3646: “pfnDlgProc”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C3646: “lParam”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(244,5): error C3646: “pfnCallback”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C3646: “dwSize”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C3646: “dwFlags”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C3646: “hInstance”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C3646: “pszTemplate”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C3646: “pResource”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C3646: “hIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C3646: “pszIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C3646: “pszTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C3646: “pfnDlgProc”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C3646: “lParam”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(250,5): error C3646: “pfnCallback”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(252,37): error C3646: “pszHeaderTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(252,37): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(253,40): error C3646: “pszHeaderSubTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(253,40): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C3646: “dwSize”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C3646: “dwFlags”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C3646: “hInstance”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C3646: “pszTemplate”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C3646: “pResource”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C3646: “hIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C3646: “pszIcon”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C3646: “pszTitle”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C3646: “pfnDlgProc”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C3646: “lParam”: 未知重写说明符
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): error C3646: “pfnCallback”: 未知重写说明符
+  正在生成代码...
+D:\Windows Kits\10\Include\10.0.18362.0\um\prsht.h(259,5): fatal error C1003: 错误计数超过 100；正在停止编译
